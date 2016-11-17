@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+
+        #bg-img{
+            height: 800px;
+            background: url(images/car.jpg) no-repeat center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        .container{
+            background: none;
+        }
+
+
+        @media (max-width: 1016px) {
+
+            #bg-img {
+                height: 600px;
+            }
+        }
+
+        /* ---------TABLET*/
+        @media (max-width: 768px) {
+
+            #bg-img {
+                height: 300px;
+            }
+
+        }
+
+        /*---------Mobile*/
+
+        @media (max-width: 480px) {
+
+            #bg-img {
+                height: 170px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+<div id="bg-img">
+    <div class="container">
+
+        <h2>Большое фоновое изображение</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Accusantium ad aliquid quidem repellat ullam.
+        </p>
+
+    </div>
+</div>
+</body>
+</html>
